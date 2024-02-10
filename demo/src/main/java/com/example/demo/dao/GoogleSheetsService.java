@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 public class GoogleSheetsService {
 
     //スプレッドシートのURLを記載
-    private String publicSheetsUrl = "https://docs.google.com/spreadsheets/d/126R5vAWmuNA8tiTQ4KN-K3IfuwD5w5OSOAvZUaUZ5wE";
+    private String publicSheetsUrl = "https://docs.google.com/spreadsheets/d/{シートID}";
 
     private final ObjectMapper objectMapper = new ObjectMapper();
 
